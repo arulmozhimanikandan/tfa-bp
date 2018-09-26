@@ -1,3 +1,3 @@
 import component from './src/components/SampleComponent'
 
-module.exports = component
+export default component
