@@ -12,8 +12,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "start": "styleguidist server",
+    "build": "styleguidist build"
   },
   "dependencies": {
     "dog-names": "^1.0.2",
