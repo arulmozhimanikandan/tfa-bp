@@ -48,5 +48,5 @@ SampleComponent.sizes = {
     large: '18px',
 };
 
-const StyledButton = injectSheet(styles)(SampleComponent)
-export default StyledButton
+export default injectSheet(styles)(SampleComponent)
+

@@ -4,37 +4,30 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "start": "styleguidist server",
-    "build": "styleguidist build"
+  "peerDependencies": {
+    "react": "^15.5.4"
   },
   "dependencies": {
-    "dog-names": "^1.0.2",
-    "lodash": "^4.17.5",
-    "prop-types": "^15.6.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "prop-types": "latest",
+    "react": "^15.5.4",
     "react-jss": "^8.6.1",
-    "react-styleguidist": "^7.1.0"
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Your name",
+    "email": "your email"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
-    "style-loader": "^0.21.0",
-    "url-loader": "^0.6.2",
-    "webpack": "^4.16.1"
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
   }
 }
