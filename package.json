@@ -2,29 +2,32 @@
   "name": "sample-component",
   "description": "About component",
   "version": "1.0.0",
-  "private": true,
   "homepage": "",
-  "peerDependencies": {
-    "react": "^15.5.4"
-  },
   "dependencies": {
+    "@storybook/addon-actions": "latest",
+    "@storybook/addon-knobs": "^3.4.11",
+    "jsx-to-string": "^1.4.0",
     "prop-types": "latest",
-    "react": "^15.5.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.6.0",
     "react-jss": "^8.6.1",
     "webpack": "^2.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "author": {
     "name": "Your name",
     "email": "your email"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^3.4.11",
+    "@storybook/react": "^3.4.11",
     "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
